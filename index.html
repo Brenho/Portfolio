@@ -6,9 +6,10 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     
     <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>    
@@ -17,31 +18,114 @@
     
 </head>
 <body>
-
-<div class="navbar navbar-default navbar-fixed-top">
+<nav class="nav">
     <div class="container">
-    <ul class="nav navbar-nav navbar-right">
-        <li><a href="https://github.com/Brenho"><img src="img/circle.png"></a></li>
-        <li><a href="http://codepen.io/RichieBrennan/"><img src="img/shape.png"></a></li>
-        <li><a href="https://twitter.com/RichieBrennan"><img src="img/twitter.png"></a></li>
-    </ul>
+        <div class="nav-left">
+            <p class="social-links-left"><a href="https://github.com/Brenho"><span>rb</span></a></p>
+        </div>
+        <div class="nav-right">
+            <p class="social-links-right"><a href="https://github.com/Brenho"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+            <p class="social-links-right"><a href="https://codepen.io/RichieBrennan/"><i class="fa fa-codepen" aria-hidden="true"></i></a></p>
+            <p class="social-links-right"><a href="https://twitter.com/RichieBrennan"><i class="fa fa-twitter" aria-hidden="true"></i></a></p>
+            <p class="social-links-right"><a href="https://www.linkedin.com/in/richie-brennan-489510150/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></p>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid" id="intro">
+    <div id="inside">
+        <h1>Richie Brennan</h1>
+        <h3>Web Developer</h3>
+    </div>
+</div>
+
+
+<div class="container-fluid" id="projects">
+    <div class="row">
+       <div class="col-md-4">
+           <div class="inner" data-title="Dean Park Decor">
+               <a href="project-1.html">
+                   <div class="inner-image-1"><img class="img-responsive" src="img/deanparkdecor.jpg"></div>
+                </a>
+           </div>
+       </div>
+       <div class="col-md-4">
+           <div class="inner" data-title="Drunken Master KSU">
+               <a href="project-2.html">
+                   <div class="inner-image-2"><img class="img-responsive" src="img/dmaster.jpg"></div>
+                </a>
+           </div>
+           
+       </div>
+        <div class="col-md-4">
+            <div class="inner" data-title="Bill Hicks Foundation">
+                <a href="project-3.html">
+                   <div class="inner-image-3"><img class="img-responsive" src="img/raccoon.jpg"></div>
+                </a>
+            </div>
+       </div>
+    </div>
+</div>
+        
+<div class="container-fluid" id="projects">
+    <div class="row">
+       <div class="col-md-4">
+           <div class="inner" data-title="ISS Track">
+               <a href="project-4.html">
+                   <div class="inner-image-4"><img class="img-responsive" src="img/space.jpg"></div>
+                </a>
+           </div>
+       </div>
+       <div class="col-md-4">
+           <div class="inner" data-title="Related Artists">
+               <a href="project-5.html">
+                   <div class="inner-image-5"><img class="img-responsive" src="img/music-app.jpg"></div>
+                </a>
+           </div>
+           
+       </div>
+        <div class="col-md-4">
+            <div class="inner" data-title="JS Piano">
+                <a href="project-6.html">
+                   <div class="inner-image-6"><img class="img-responsive" src="img/piano.jpg"></div>
+                </a>
+            </div>
+       </div>
+    </div>
+    
+    <div class="row">
+       <div class="col-md-4">
+           <div class="inner" data-title="MyTodos">
+               <a href="project-7.html">
+                   <div class="inner-image-4"><img class="img-responsive" src="img/todo.jpg"></div>
+                </a>
+           </div>
+       </div>
+       <div class="col-md-4">
+           <div class="inner" data-title="Interactive Periodic Table">
+               <a href="project-8.html">
+                   <div class="inner-image-5"><img class="img-responsive" src="img/periodic.jpg"></div>
+                </a>
+           </div>
+           
+       </div>
+        <div class="col-md-4">
+            <div class="inner" data-title="JS Calculator">
+                <a href="project-9.html">
+                   <div class="inner-image-6"><img class="img-responsive" src="img/calc.jpg"></div>
+                </a>
+            </div>
+       </div>
     </div>
 </div>
     
-<div class="container" id="intro">
-    <h1>Richie Brennan</h1>
-    <h2>Web Developer</h2>
-</div>
-    
-
 <div class="container" id="about">
     <div class="row">
         <div class="col-md-6">
             <h2>About</h2>
             <hr>
-            <p>I'm Richie Brennan. A front-end web developer based in Glasgow, Scotland.<br><br>
+            <p>I'm Richie Brennan. A junior front-end web developer based in Glasgow, Scotland.<br><br>
             I enjoy building clean, responsive websites using HTML, CSS and a touch of Javascript. I have a strong love for design and a desire to delve deeper into front-end technologies.<br><br>
-            When I'm not on the internet you can find me walking up mountains, or watching 80's action movies.</p>
+            </p>
         </div>
         <div class="col-md-6">
             <h2>Contact</h2>
@@ -51,77 +135,18 @@
             <h4>Phone:<br>07400272163</h4>
         </div>
     </div>
-</div>    
-
-<div class="container" id="about">
-    <h2 class="text-center">WORK</h2>
-    <hr>
-</div>
-    
-<div class="container" id="projects">
-    <div class="row">
-       <div class="col-md-4">
-           <div class="inner">
-               <a href="project-1.html" data-title="Dean Park Decor" data-desc="More...">
-                   <div class="inner-image-1"><img class="img-responsive" src="img/deanparkdecor.jpg"></div>
-                </a>
-           </div>
-       </div>
-       <div class="col-md-4">
-           <div class="inner">
-               <a href="project-2.html" data-title="Drunken Master KSU" data-desc="More...">
-                   <div class="inner-image-2"><img class="img-responsive" src="img/bar.jpg"></div>
-                </a>
-           </div>
-           
-       </div>
-        <div class="col-md-4">
-            <div class="inner">
-                <a href="project-3.html" data-title="Bill Hicks Foundation" data-desc="More...">
-                   <div class="inner-image-3"><img class="img-responsive" src="img/wolf.jpg"></div>
-                </a>
-            </div>
-       </div>
-    </div>
-</div>
-    
-<div class="container" id="about">
-    <h2 class="text-center">PROJECTS</h2>
-    <hr>
-</div>
-    
-<div class="container" id="projects">
-    <div class="row">
-       <div class="col-md-4">
-           <div class="inner">
-               <a href="project-4.html" data-title="ISS Track" data-desc="More...">
-                   <div class="inner-image-4"><img class="img-responsive" src="img/ISS-thumb.jpg"></div>
-                </a>
-           </div>
-       </div>
-       <div class="col-md-4">
-           <div class="inner">
-               <a href="project-5.html" data-title="Interactive Periodic Table" data-desc="More...">
-                   <div class="inner-image-5"><img class="img-responsive" src="img/periodic-thumb.png"></div>
-                </a>
-           </div>
-           
-       </div>
-        <div class="col-md-4">
-            <div class="inner">
-                <a href="project-6.html" data-title="JS Piano" data-desc="More...">
-                   <div class="inner-image-6"><img class="img-responsive" src="img/piano-thumb.png"></div>
-                </a>
-            </div>
-       </div>
-    </div>
-</div>
+</div>  
     
 
     
     
-<div class="container text-center" id="footer">
-    <p>&copy; RICHIE BRENNAN 2017</p>
+<div class="container-fluid text-center" id="footer">
+    <p><a href="index.html"><span>rb</span></a></p>
+    <p>Copyright &copy; 2017 Richie Brennan</p>
+            <p class="foot-links"><a href="https://github.com/Brenho"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+            <p class="foot-links"><a href="https://codepen.io/RichieBrennan/"><i class="fa fa-codepen" aria-hidden="true"></i></a></p>
+            <p class="foot-links"><a href="https://twitter.com/RichieBrennan"><i class="fa fa-twitter" aria-hidden="true"></i></a></p>
+            <p class="foot-links"><a href="https://www.linkedin.com/in/richie-brennan-489510150/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></p>
 </div>
 
     

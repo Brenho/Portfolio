@@ -1,27 +1,26 @@
 $(document).ready(function(){
    
     //Mouseenter overlay
-    $('.inner a').on('mouseenter', function(){
+    $('.inner').on('mouseenter', function(){
       
-       var title = $(this).data('title');
-       var desc = $(this).data('desc');
+      var title = $(this).data('title');
            
        //Create info div overlay
-       $(this).append('<div class="info"></div>');
+      $(this).append('<div class="info"></div>');
        
        var info = $(this).children('.info');
        
-       info.html('<h3>'+title+'</h3><p>'+desc+'</p>');
+       info.html('<h3>'+title+'</h3>');
        
        info.fadeIn(400);
-   });
+  });
     
     //Mouseleave
-    $('.inner a').on('mouseleave', function(){
-       
+    $('.inner').on('mouseleave', function(){
+        
         var info = $(this).children('.info');
         
-        $(info).fadeOut(400, function(){
+       $(info).fadeOut(400, function(){
             $(info).remove();
         });
         

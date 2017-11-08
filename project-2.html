@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
     
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
     <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>    
     <script src="js/bootstrap.min.js"></script>
@@ -16,18 +18,24 @@
     
 </head>
     <body>
-<div class="navbar navbar-default navbar-fixed-top">
+<nav class="nav">
     <div class="container">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="https://github.com/Brenho"><img src="img/circle.png"></a></li>
-                <li><a href="http://codepen.io/RichieBrennan/"><img src="img/shape.png"></a></li>
-                <li><a href="https://twitter.com/RichieBrennan"><img src="img/twitter.png"></a></li>
-            </ul>
+        <div class="nav-left">
+            <p class="social-links-left"><a href="index.html"><span>rb</span></a></p>
+        </div>
+        <div class="nav-right">
+            <p class="social-links-right"><a href="https://github.com/Brenho"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+            <p class="social-links-right"><a href="https://codepen.io/RichieBrennan/"><i class="fa fa-codepen" aria-hidden="true"></i></a></p>
+            <p class="social-links-right"><a href="https://twitter.com/RichieBrennan"><i class="fa fa-twitter" aria-hidden="true"></i></a></p>
+            <p class="social-links-right"><a href="https://www.linkedin.com/in/richie-brennan-489510150/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></p>
+        </div>
     </div>
-</div>
+</nav>
 
-        <div class="container" id="intro-brief">
-            <h1>DrunkenMaster KSU</h1>
+        <div class="container-fluid" id="intro-brief">
+            <div class="container">
+                 <h1>DrunkenMaster KSU</h1>
+            </div>
         </div>
 
          <div class="container">
@@ -41,14 +49,36 @@
                     <h2>View project</h2>
                     <p>You can view the live project here.</p>
                     <a href="http://drunkenmaster.esy.es/"><button class="button">VISIT</button></a>
+                    <ul class="tech">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>BOOTSTRAPS</li>
+                        <li>JQUERY</li>
+                    </ul>
                 </div>
                 <div class="col-sm-6 brief-img">
                     <img src="img/dmaster-screen.png" class="img-responsive">
                 </div>
             </div>
         </div>
-       <div class="container text-center" id="footer">
-        <p>&copy; RICHIE BRENNAN 2017</p>
-    </div>
+        <div class="container" id="project-nav">
+            <div class="prev">
+                <p>Previous</p>
+                <a href="project-1.html">Dean Park Decor</a>
+            </div>
+            <div class="next">
+                <p>Next</p>
+                <a href="project-3.html">Bill Hicks Wildlife Foundation</a>
+            </div>
+        </div>
+        
+ <div class="container-fluid text-center" id="footer">
+    <p><a href="index.html"><span>rb</span></a></p>
+    <p>Copyright &copy; 2017 Richie Brennan</p>
+            <p class="foot-links"><a href="https://github.com/Brenho"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+            <p class="foot-links"><a href="https://codepen.io/RichieBrennan/"><i class="fa fa-codepen" aria-hidden="true"></i></a></p>
+            <p class="foot-links"><a href="https://twitter.com/RichieBrennan"><i class="fa fa-twitter" aria-hidden="true"></i></a></p>
+            <p class="foot-links"><a href="https://www.linkedin.com/in/richie-brennan-489510150/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></p>
+</div>
     </body>
 </html>
