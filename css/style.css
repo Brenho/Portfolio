@@ -335,6 +335,7 @@ a{
     font-size: 1.8rem;
 }
 
+/*======page-nav========*/
 
 .prev{
     width: 50%;
@@ -345,6 +346,8 @@ a{
     width: 50%;
     float: right;
 }
+
+/*======footer========*/
 
 #footer{
     background: #1A2980;  /* fallback for old browsers */
